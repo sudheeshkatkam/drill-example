@@ -9,7 +9,8 @@
     <version>1.0</version>
 
     <properties>
-        <drill.version>1.1.0</drill.version>
+        <drill.version>1.2.0-SNAPSHOT</drill.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
     <build>
@@ -49,12 +50,12 @@
         </plugins>
     </build>
 
-    <repositories>
-        <repository>
-            <id>repository.apache.org</id>
-            <url>https://repository.apache.org/content/repositories/orgapachedrill-1001/</url>
-        </repository>
-    </repositories>
+    <!--<repositories>-->
+        <!--<repository>-->
+            <!--<id>repository.apache.org</id>-->
+            <!--<url>https://repository.apache.org/content/repositories/orgapachedrill-1001/</url>-->
+        <!--</repository>-->
+    <!--</repositories>-->
 
     <dependencies>
         <dependency>
