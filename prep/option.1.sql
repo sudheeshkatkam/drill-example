@@ -1,0 +1,1 @@
+ALTER session SET `planner.slice_target` = 10
